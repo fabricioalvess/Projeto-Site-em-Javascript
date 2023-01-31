@@ -74,7 +74,7 @@ document.getElementById("service-previous").onclick = function(){
 
 document.getElementById("service-next").onclick = function(){
 
-  if(servico_atual == our_services.length ){
+  if(servico_atual == our_services.length -1){
     var proximoServico = 0;
   }else {
     proximoServico = servico_atual +1;
