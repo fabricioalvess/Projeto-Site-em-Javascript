@@ -90,6 +90,8 @@ document.getElementById("service-next").onclick = function(){
 
 }
 
+//ano atual na sessao do rodape
 
-
-   
+var anoAtual = new Date;
+anoAtual = anoAtual.getFullYear();
+document.getElementById("current_year").innerHTML = anoAtual;
